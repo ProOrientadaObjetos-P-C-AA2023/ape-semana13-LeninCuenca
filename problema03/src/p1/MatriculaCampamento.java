@@ -1,23 +1,20 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-package p1;
 
-/**
- *
- * @author reroes
- */
-public class MatriculaCampamento {
-    private double tarifa;
-    
-    public void establecerTarifa(){
-        // tarifa = costo transporte + costo comida + costo instructores
-        tarifa = 100.2 + 30.2 + 90.2;
+package p1;
+import p2.Matricula;
+
+public class MatriculaCampamento extends Matricula{
+
+    public MatriculaCampamento() {
     }
-        
-    public double obtenerTarifa(){
-        return tarifa;
+
+    public MatriculaCampamento(double tarifa) {
+        super(tarifa);
+    }
+    //Metodos
+    @Override
+    public void calcularTarifa() {
+        // tarifa = costo transporte + costo comida + costo instructores
+        double tarifa = 100.2 + 30.2 + 90.2;
+        super.setTarifa(tarifa);
     }
 }
