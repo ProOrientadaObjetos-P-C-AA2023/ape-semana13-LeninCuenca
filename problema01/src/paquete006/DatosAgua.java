@@ -1,7 +1,7 @@
 package paquete006;
 
 
-public class DatosAgua {
+public class DatosAgua  {
     public DatosAgua() {}
     public static double[][] datosComerciales(){
         double[][] informacion = {

@@ -67,7 +67,7 @@ public class Principal {
 
         CalcularGastos gastosPagos= new CalcularGastos(agua,luz,propiedades,telefono);
 
-        Persona persona= new Persona("Iam", "Estrella", 19,"1104599376",ciudad1);
+        Persona persona= new Persona("Felipe", "Campos", 38,"343124324",ciudad1);
         pago= new BilleteraPagos(persona,"Febrero",agua,luz,propiedades,telefono,gastosPagos.calcularGastos());
         System.out.println(pago);
     }

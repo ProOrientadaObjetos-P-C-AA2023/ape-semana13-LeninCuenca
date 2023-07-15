@@ -16,7 +16,6 @@ public class Principal {
         }
         System.out.printf("Precio Total: %.2f\n", new VentasTvs(tvs).establecerPrecioTotal());
         System.out.println("Precio mas caro: "+ new VentasTvs(tvs).televisorMasCaro());
-        //System.out.printf("%s\n", t1.listaMarcasVendidas(tvs));
         System.out.println("-----------------");
     }
 }

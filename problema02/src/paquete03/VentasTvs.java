@@ -15,13 +15,6 @@ public class VentasTvs {
         }
         return s;
     }
-    public String listaMarcasVendidas(){
-        String s = "";
-        for (int i = 0; i < televisores.size(); i++) {
-            s = String.format("%s%s\n", s, televisores.get(i).obtenerMarca());
-        }
-        return s;
-    }
     public double televisorMasCaro(){
         double s = televisores.get(0).obtenerPrecio();
         for (int i = 1; i < televisores.size(); i++) {

@@ -1,8 +1,5 @@
 package paquete004;
 
-import paquete001.Persona;
-import paquete002.Propiedad;
-
 public class PagoPredial extends Pago{
     double valorPropiedad;
     double porcentaje;
